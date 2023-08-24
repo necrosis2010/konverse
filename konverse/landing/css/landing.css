@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --original-primary-color: #df5764;
+  --original-secondary-color: #4c80f6;
+  --primary-color: #7797e2;
+  --secondary-color: #df5764;
+  --light-text-color: #d6d6d6;
+  --dark-text-color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 40px;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+nav.primary-bg {
+  background: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+
+.light-text {
+  color: var(--light-text-color) !important;
+}
+
+.secondary-text {
+  font-family: "Rubik", sans-serif !important;
+}
+
+.navbar-brand {
+  font-size: 2.2rem;
+}
+
+.nav-item {
+  font-size: 1.8rem;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+button.sign-up {
+  font-size: 28.8px !important;
+}
+
+.dark-text {
+  color: var(--dark-text-color) !important;
+}
+
+main > div.container-fluid {
+  padding: 0px !important;
+  margin: 0px !important;
+  padding-right: 0px !important;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right, #7797e2, #df5764);
+  margin-top: 107px;
+}
+
+.introduction > .intro-text {
+  flex: 2;
+}
+
+.introduction > .intro-image {
+  flex: 1;
+}
+
+.intro-image > img {
+  width: 600px;
+  height: 624px;
+}
+
+h1.tagline {
+  font-size: 5rem;
+}
+
+p.app-description {
+  font-size: 2.2rem;
+  font-weight: 200;
+}
+
+.section-heading {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.feature-name {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+p.feature-description {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.testimonials {
+  background: linear-gradient(to right, #7797e2, #df5764);
+}
+
+.outer-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  border: none;
+  width: 45rem;
+}
+
+img.testimonial-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+}
+
+blockquote.blockquote {
+  font-size: 1.8rem;
+}
+
+cite {
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #333;
+  font-size: 1.5rem;
+}
+
+.about {
+  margin-top: 100px;
+  background: linear-gradient(to right, #7797e2, #df5764);
+  height: 55vh;
+}
+
+.about-heading {
+  font-size: 3.5rem;
+}
+
+.about-description {
+  font-size: 2rem;
+}
+
+.contact-body {
+  background: linear-gradient(to right, #7797e2, #df5764);
+}
+
+.contact-form {
+  margin-top: 100px;
+  background: linear-gradient(to right, #7797e2, #df5764);
+  height: 90vh;
+  font-size: 2.5rem;
+}
+
+button {
+  font-size: 2rem !important;
+  border-radius: 15px !important;
+  background: transparent;
+  border: 1px solid var(--light-text-color) !important;
+  border-radius: 15px !important;
+}
+
+.sign-up-light {
+  background-color: var(--light-text-color) !important;
+  color: var(--dark-text-color) !important;
+}
+
+.sign-up-dark {
+  background-color: var(--dark-text-color) !important;
+  color: var(--light-text-color) !important;
+}
+
+.dark-border {
+  border: 1px solid var(--dark-text-color) !important;
+}
+
+a.back-to-top {
+  font-size: 2rem;
+  border: 1px solid var(--light-text-color);
+  border-radius: 40%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  z-index: 2;
+}
+
+button.contact-submit:hover {
+  background-color: var(--light-text-color) !important;
+  color: var(--dark-text-color) !important;
+}
+
+div.error-text {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ebebeb !important;
+  border-radius: 15px;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-heading {
+  font-size: 3rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+a.signup {
+  text-decoration: none !important;
+  color: var(--light-text-color) !important;
+}
